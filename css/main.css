@@ -21,9 +21,12 @@ body {
   margin: 0;
 }
 
-.wrapper {
+section {
   background-color: #e5c30a;
-  width: 100%;
+}
+
+.wrapper {
+  max-width: 45em;
   padding: 1.3rem;
   overflow: hidden;
 }
@@ -78,13 +81,19 @@ p {
 
 @media only screen and (min-width: 60em) {
 
-  font-size: 120%;
-  line-height: 1.5;
-
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
-  font-size: 130%;
+  html {
+    font-size: 130%;
+  }
 
+  .wrapper {
+    margin: 0 auto;
+  }
 }
