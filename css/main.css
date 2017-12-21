@@ -70,17 +70,17 @@ section p {
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%;
-  line-height: 1.4;
+    font-size: 110%;
+    line-height: 1.4;
   }
+
   .section-icon,
   .section-letter {
-    width:25%;
+    width: 25%;
     padding: 0 2rem;
   }
 
 }
-
 
 @media only screen and (min-width: 60em) {
 
@@ -95,6 +95,4 @@ section p {
   html {
     font-size: 130%;
   }
-
-
 }
